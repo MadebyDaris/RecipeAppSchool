@@ -7,13 +7,13 @@ class Meal {
     this.id,
     this.title,
     this.imageUrl,
-  })
+  });
 
   factory Meal.fromMap(Map<String, dynamic> map) {
     return Meal(
-      id: map['id'];
-      title: map['title'];
-      imageimageUrl: 'https://spooonacular.com/recipeImages/' + map['Image'],
-    )
+      id: map['id'],
+      title: map['title'],
+      imageUrl: 'https://spooonacular.com/recipeImages/' + map['Image'],
+    );
   }
 }

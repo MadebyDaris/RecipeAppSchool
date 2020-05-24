@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:flutter_recipe_app/models/meal_plan_model.dart';
-import 'package:flutter_recipe_app/models/recipe_model.dart';
+import 'package:recipeapp/models/meal_plan_model.dart';
+import 'package:recipeapp/models/recipe_model.dart';
 import 'package:http/http.dart' as http;
 
 class APIService {
