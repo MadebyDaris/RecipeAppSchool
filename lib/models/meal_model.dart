@@ -13,7 +13,7 @@ class Meal {
     return Meal(
       id: map['id'],
       title: map['title'],
-      imageUrl: 'https://spooonacular.com/recipeImages/' + map['Image'],
+      imageUrl: 'https://spoonacular.com/recipeImages/' + map['Image'],
     );
   }
 }

@@ -168,7 +168,7 @@ class _MealsScreenState extends State<MealsScreen> {
   _mealType(int index) {
     switch (index) {
       case 0:
-        return 'Breakfast most important';
+        return 'Breakfast';
       case 1:
         return 'Lunch';
       case 2:
